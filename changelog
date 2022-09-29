@@ -13,3 +13,6 @@ Added
 -changelog
 -src/com/itzilly/treasureHunt/GamePanel.java
 About: Add game panel to main window
+
+# alpha-0.1.1-b4
+Rewrote game frame panel
