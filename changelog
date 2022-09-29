@@ -1,0 +1,15 @@
+# alpha-0.0.1-b1
+Added
+-README
+-contributions
+-license,
+-.run/TreasureHunt.run.xml
+-.gitignore
+-src/com/itzilly/treasureHunt/TreasureHunt.java
+-src/com/itzilly/treasureHunt/TreasureHuntWindow.java
+
+# alpha-0.0.2-b2
+Added
+-changelog
+-src/com/itzilly/treasureHunt/GamePanel.java
+About: Add game panel to main window
