@@ -1,13 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="TreasureHunt" type="Application" factoryName="Application" nameIsGenerated="true">
+  <configuration default="false" name="TreasureHunt" type="Application" factoryName="Application">
     <option name="MAIN_CLASS_NAME" value="com.itzilly.treasureHunt.TreasureHunt" />
     <module name="TreasureHunt" />
-    <extension name="coverage">
-      <pattern>
-        <option name="PATTERN" value="com.itzilly.treasureHunt.*" />
-        <option name="ENABLED" value="true" />
-      </pattern>
-    </extension>
+    <option name="PROGRAM_PARAMETERS" value="-Xms2G -Xmx2G" />
     <method v="2">
       <option name="Make" enabled="true" />
     </method>
