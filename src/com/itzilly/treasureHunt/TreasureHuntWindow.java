@@ -15,9 +15,14 @@ public class TreasureHuntWindow {
         window.setResizable(false);
         window.setTitle(title);
         window.setLocationRelativeTo(null);
-        window.setPreferredSize(new Dimension(WINDOW_WIDTH, WINDOW_HEIGHT));
-        window.setMaximumSize(new Dimension(WINDOW_WIDTH, WINDOW_HEIGHT));
-        window.setMinimumSize(new Dimension(WINDOW_WIDTH, WINDOW_HEIGHT));
+//        window.setPreferredSize(new Dimension(WINDOW_WIDTH, WINDOW_HEIGHT));
+//        window.setMaximumSize(new Dimension(WINDOW_WIDTH, WINDOW_HEIGHT));
+//        window.setMinimumSize(new Dimension(WINDOW_WIDTH, WINDOW_HEIGHT));
+
+        // JFrame Components
+        GamePanel gamePanel = new GamePanel();
+        window.add(gamePanel);
+        window.pack();
     }
 
 
